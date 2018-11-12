@@ -1,0 +1,12 @@
+site_name: ModelChimp Docs
+pages:
+    - Home: index.md
+    - Python API: track.md
+    - TensorFlow Example: tensorflow.md
+    - Keras Example: keras.md
+    - PyTorch Example: pytorch.md
+    - PySpark Example: pyspark.md    
+    - SciKit Example: scikit.md
+
+theme: readthedocs
+extra_css: [extra.css]
