@@ -17,3 +17,8 @@ Name your project and give a description at the home page after registration.
 
 Copy the project key from project page.
 ![Screenshot](../img/doc_project_key.png)
+
+## Older Documentation
+For documentation on previous versions -
+
+  * [ModelChimp 0.1](https://docs.modelchimp.com/0.1/)
