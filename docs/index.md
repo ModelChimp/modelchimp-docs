@@ -13,10 +13,10 @@ Install ModelChimp by executing the following command in the terminal
 ## Define the project
 Name your project and give a description at the home page after registration.
 
-![Screenshot](../img/docs_project_definition.png)
+![Screenshot](./img/docs_project_definition.png)
 
 Copy the project key from project page.
-![Screenshot](../img/doc_project_key.png)
+![Screenshot](./img/doc_project_key.png)
 
 ## Older Documentation
 For documentation on previous versions -
