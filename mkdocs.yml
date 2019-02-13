@@ -14,10 +14,10 @@ pages:
       # - Dataset ID: experiment_level/dataset_id.md
       - Existing Experiment: experiment_level/existing_experiment.md
       # - Deleting Experiment: experiment_level/deleting_experiment.md
+      - Grid Search: experiment_level/grid_search.md
     - Project Level:
       # - Experiment Comparison: project_level/experiment_comparison.md
       - Adding/Viewing members: project_level/members.md
-      # - Labels and Comments: project_level/labels_comments.md
       # - Dashboard: project_level/dashboard.md
       - Customizing Experiment Table: project_level/customizing_experiment_table.md
       - Deleting Project: project_level/deleting_project.md
