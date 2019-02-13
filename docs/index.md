@@ -8,21 +8,12 @@ Machine learning practitioners should focus on experiments and not on managing t
 ## Installation
 Install ModelChimp by executing the following command in the terminal
 
-    pip3 install modelchimp==0.4.17
+    pip3 install modelchimp
 
 ## Define the project
 Name your project and give a description at the home page after registration.
-<div style="text-align:center;">
-  <img src="https://docs.modelchimp.com/doc_project_definition.png"
-  style="border-width: 1px;
-    border-color: black;
-    border-style: solid;"  />
-</div>
+
+![Screenshot](../img/docs_project_definition.png)
 
 Copy the project key from project page.
-<div style="text-align:center;">
-  <img src="https://docs.modelchimp.com/doc_project_key.png"
-  style="border-width: 1px;
-    border-color: black;
-    border-style: solid;"  />
-</div>
+![Screenshot](../img/doc_project_key.png)
