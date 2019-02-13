@@ -54,6 +54,15 @@ Log the duration at a particular epoch
 * **seconds_elapsed:** Number of seconds elapsed for the duration
 * **epoch:** Current epoch number
 
+### add_gridsearch()
+Save the results of sklearn GridSearch to ModelChimp
+
+    add_gridsearch(model)
+
+<b>Arguments</b>
+
+* **model:** GridSearch model object of class GridSearchCV
+
 
 ### add_image()
 Upload image. This is useful for computer vision use cases
