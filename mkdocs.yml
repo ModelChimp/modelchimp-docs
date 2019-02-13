@@ -2,11 +2,34 @@ site_name: ModelChimp Docs
 pages:
     - Home: index.md
     - Python API: track.md
-    - TensorFlow Example: tensorflow.md
-    - Keras Example: keras.md
-    - PyTorch Example: pytorch.md
-    - PySpark Example: pyspark.md    
-    - SciKit Example: scikit.md
+    - Getting Started: getting_started.md
+    - Experiment Level:
+      - Adding/Viewing Parameters and Metrics: experiment_level/parameters_and_metrics.md
+      - Code: experiment_level/code.md
+      - Reports: experiment_level/reports.md
+      - Custom Objects: experiment_level/custom_objects.md
+      - Images: experiment_level/images.md
+      - Labels: experiment_level/labels.md
+      - Comments: experiment_level/comments.md
+      - Dataset ID: experiment_level/dataset_id.md
+      - Existing Experiment: experiment_level/existing_experiment.md
+      - Deleting Experiment: experiment_level/deleting_experiment.md
+    - Project Level:
+      - Experiment Comparison: project_level/experiment_comparison.md
+      - Adding/Viewing members: project_level/members.md
+      - Labels and Comments: project_level/labels_comments.md
+      - Dashboard: project_level/dashboard.md
+      - Customizing Experiment Table: project_level/customizing_experiment_table.md
+      - Deleting Project: project_level/deleting_project.md
+    - Framework Specific:
+      - Sklearn Auto Capture: framework_specific/sklearn_auto_capture.md
+      - Keras Callback: framework_specific/keras_callback.md
+    - Examples:
+      - TensorFlow Example: tensorflow.md
+      - Keras Example: keras.md
+      - PyTorch Example: pytorch.md
+      - PySpark Example: pyspark.md
+      - SciKit Example: scikit.md
 
 theme: readthedocs
 extra_css: [extra.css]

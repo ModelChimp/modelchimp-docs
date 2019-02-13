@@ -8,7 +8,7 @@ Machine learning practitioners should focus on experiments and not on managing t
 ## Installation
 Install ModelChimp by executing the following command in the terminal
 
-    pip3 install -U modelchimp
+    pip3 install modelchimp==0.4.17
 
 ## Define the project
 Name your project and give a description at the home page after registration.

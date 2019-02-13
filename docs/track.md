@@ -43,6 +43,30 @@ Add a dataset id for the experiment
 
 * **id:** String|Int Id of the dataset
 
+### add_duration_at_epoch()
+Log the duration at a particular epoch
+
+    add_duration_at_epoch(tag, seconds_elapsed, epoch)
+
+<b>Arguments</b>
+
+* **tag:** Name of the duration
+* **seconds_elapsed:** Number of seconds elapsed for the duration
+* **epoch:** Current epoch number
+
+
+### add_image()
+Upload image. This is useful for computer vision use cases
+
+    add_image(filepath, metric_dict=None, custom_file_name=None, epoch=None)
+
+<b>Arguments</b>
+
+* **filepath:** File path of the image
+* **metric_dict:** Dict of metrics to be stored for the image
+* **custom_file_name:** An alternate name to be used for storing the image
+* **epoch:** Epoch at which the image was used for prediction
+
 ### add_metric()
 Add the metrics that need to be tracked
 
