@@ -1,7 +1,6 @@
 # Welcome to ModelChimp
-<div style="text-align:center;">
-  <img src="https://docs.modelchimp.com/logo.png"  style="height:200px !important;"/>
-</div>
+![Screenshot](./img/logo.png)
+
 
 Machine learning practitioners should focus on experiments and not on managing them.
 
@@ -17,6 +16,25 @@ Name your project and give a description at the home page after registration.
 
 Copy the project key from project page.
 ![Screenshot](./img/doc_project_key.png)
+
+## Add the Tracker
+
+Add the following tracker code to your python script and call the required methods of the Tracker Class.
+[Find more details here](./track.md)
+
+    from modelchimp import Tracker
+
+    # Add before the trained model
+    tracker = Tracker(key='<PROJECT KEY>',
+                      host='<host>',
+                      experiment_name=None,
+                      tracking=True,  
+                      auto_log=False,
+                      existing_exp_id=None)
+
+    tracker.add_param(...)
+    tracker.add_metric(...)
+
 
 ## Older Documentation
 For documentation on previous versions -
