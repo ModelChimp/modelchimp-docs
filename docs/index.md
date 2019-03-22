@@ -34,9 +34,3 @@ Add the following tracker code to your python script and call the required metho
 
     tracker.add_param(...)
     tracker.add_metric(...)
-
-
-## Older Documentation
-For documentation on previous versions -
-
-  * [ModelChimp 0.1](https://docs.modelchimp.com/0.1/)
