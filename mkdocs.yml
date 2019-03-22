@@ -15,6 +15,7 @@ pages:
       - Existing Experiment: experiment_level/existing_experiment.md
       # - Deleting Experiment: experiment_level/deleting_experiment.md
       - Grid Search: experiment_level/grid_search.md
+      - Asset: experiment_level/asset.md
     - Project Level:
       # - Experiment Comparison: project_level/experiment_comparison.md
       - Adding/Viewing members: project_level/members.md
