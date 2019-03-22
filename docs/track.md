@@ -23,6 +23,24 @@ Tracker class is instantiated with a project key and the domain name of Marble's
 
 ## Methods
 
+### add_asset()
+Upload file to ModelChimp.
+
+Current files supported - Image, Text and Model files
+
+Image - 'jpg', 'bmp', 'jpeg', 'png', 'gif', 'svg'
+
+Text - 'txt', 'log', 'yaml', 'yml', 'json', 'csv', 'tsv', 'md', 'rst'
+
+Model - 'pickle', 'bin', 'h5'
+
+    add_asset(filepath, meta_dict=None, custom_file_name=None)
+
+<b>Arguments</b>
+
+* **filepath (str):** Path of the file
+* **meta_dict (dict):** Meta information to be stored along with the file
+* **custom_file_name (str):** An alternate name to be used for the file
 
 ### add_custom_object()
 Upload a python object to ModelChimp
@@ -128,6 +146,11 @@ Add the parameters that need to be tracked
 
 * **param_name:** String which defines name of the parameter
 * **param_value:** Int|Float|Bool|String that represents the value of the parameter
+
+### end()
+End the experiment. Required for Jupyter notebook or looping through experiments
+
+    end()
 
 
 ### pull_custom_object()
