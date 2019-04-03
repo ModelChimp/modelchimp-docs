@@ -52,6 +52,17 @@ Upload a python object to ModelChimp
 * **name:** String Name of the object
 * **object:** Object Python object to be stored
 
+### add_mat_plot()
+Store a matplot
+
+    add_mat_plot(name="exportedPlot.png", plt=None)
+
+<b>Arguments</b>
+
+* **name:** String Name of the plot
+* **plt:** Matplot object
+
+
 ### add_dataset_id()
 Add a dataset id for the experiment
 
